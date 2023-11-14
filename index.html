@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dora Activo</title>
+  <link rel="shortcut icon" href="icons/favicon.ico" type="image/x-icon">
+  <link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+  <header>
+    <section class="texts_header">
+      <h1>Lorem ipsum dolor sit amet consectetur </h1>
+      <h2>Lorem, ipsum dolor sit amet consectetur  Enim excepturi dolor.</h2>
+    </section>
+    <div class="wave" style="height: 150px; overflow: hidden;" ><svg viewBox="0 0 500 150" preserveAspectRatio="none" style="height: 150%; width: 100%;"><path d="M-0.00,49.85 C150.00,149.60 318.50,-1.46 500.00,49.85 L500.00,149.60 L-0.00,149.60 Z" style="stroke: none; fill: #fff;"></path></svg></div>
+  </header>
+
+  <main>
+    <section class="container about_me">
+      <h2 class="title">Sobre Mi</h2>
+      <div class="container_about_me">
+        <img src="img/me1.jpg" alt="imagen1" class="img_about_me">
+        <div class="container_texts">
+          <h3>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis rerum cum voluptate eligendi harum voluptatum, modi et neque, nemo beatae nihil totam quae libero error hic quam mollitia deleniti quis recusandae consequatur laudantium quas. Inventore quasi maxime vero ipsum ab rerum iste molestiae veniam, illum libero dolorem atque. Amet, soluta.</h3>
+        </div>
+      </div>
+    </section>
+
+    <section class="galeria">
+      <div class="container --galeria_container">
+        <div class="galeria_port">
+          <div class="img_port" onclick="mostrarImagenAgrandada('img/ejercicio1.jpg')">
+            <img src="img/ejercicio1.jpg" alt="actividad1" id="imagen_ampliada">
+            <div class="hover_galeria">
+              <img src="icons/pointer_galeria.svg" alt="pointer">
+              <p>Nuestras actividades</p>
+            </div>
+          </div>
+          <div class="img_port" onclick="mostrarImagenAgrandada('img/ejercicio2.jpg')">
+            <img src="img/ejercicio2.jpg" alt="actividad2" id="imagen_ampliada">
+            <div class="hover_galeria">
+              <img src="icons/pointer_galeria.svg" alt="pointer">
+              <p>Nuestras actividades</p>
+            </div>
+          </div>
+          <div class="img_port" onclick="mostrarImagenAgrandada('img/ejercicio3.jpg')">
+            <img src="img/ejercicio3.jpg" alt="actividad3" id="imagen_ampliada">
+            <div class="hover_galeria">
+              <img src="icons/pointer_galeria.svg" alt="pointer">
+              <p>Nuestras actividades</p>
+            </div>
+          </div>
+          <div class="img_port" onclick="mostrarImagenAgrandada('img/ejercicio4.jpg')">
+            <img src="img/ejercicio4.jpg" alt="actividad4" id="imagen_ampliada">
+            <div class="hover_galeria">
+              <img src="icons/pointer_galeria.svg" alt="pointer">
+              <p>Nuestras actividades</p>
+            </div>
+          </div>
+          <div class="img_port" onclick="mostrarImagenAgrandada('img/ejercicio5.jpg')">
+            <img src="img/ejercicio5.jpg" alt="actividad5" id="imagen_ampliada">
+            <div class="hover_galeria">
+              <img src="icons/pointer_galeria.svg" alt="pointer">
+              <p>Nuestras actividades</p>
+            </div>
+          </div>
+          <div class="img_port" onclick="mostrarImagenAgrandada('img/ejercicio6.jpg')">
+            <img src="img/ejercicio6.jpg" alt="actividad6" id="imagen_ampliada">
+            <div class="hover_galeria">
+              <img src="icons/pointer_galeria.svg" alt="pointer">
+              <p>Nuestras actividades</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="activities container">
+      <h2 class="title">¿Qué actividades podes elegir?</h2>
+      <div class="cards">
+        <div class= "card">
+          <div class="texts_card">
+            <h4>Titulo</h4>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quibusdam, similique.</p>
+          </div>
+        </div>
+        <div class= "card">
+          <div class="texts_card">
+            <h4>Titulo</h4>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quibusdam, similique.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <div class="imagen_agrandada" id="imagen_agrandada_contenedor">
+    <span class="cerrar_imagen_agrandada" onclick="cerrarImagenAgrandada()">&times;</span>
+    <img src="" alt="imagen_agrandada" id="imagen_agrandada">
+  </div>
+
+  <div id="whatsapp-button" class="whatsapp-button">
+    <a href="https://api.whatsapp.com/send?phone=541161710458&text=%F0%9F%98%8A%20Hola,%20vengo%20de%20la%20página%20web.%20Quiero%20más%20información%20sobre%20los%20cursos,%20por%20favor." target="_blank">
+        <img src="img/whatsapp.png" alt="WhatsApp">
+    </a>
+  </div>
+
+  <div id="instagram-icon" class="instagram-icon">
+    <a href="https://www.instagram.com/aity_villalba/" target="_blank">
+        <img src="img/instagram.png" alt="Instagram">
+    </a>
+  </div>
+
+  <footer>
+    <div class="footer_container">
+      <h4 class="footer_copyright">Derechos reservados &copy; Dora Activo</h4>
+    </div>
+  </footer>
+
+  <script src="js/slider.js"></script>
+  <script src="js/link.js"></script>
+  <script src="js/galeria.js"></script>
+</body>
+</html>
